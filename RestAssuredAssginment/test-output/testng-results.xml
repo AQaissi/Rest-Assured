@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-19T22:11:06 IDT" name="Default suite" finished-at="2022-04-19T22:11:12 IDT" duration-ms="5817">
+    <groups>
+    </groups>
+    <test started-at="2022-04-19T22:11:06 IDT" name="Default test" finished-at="2022-04-19T22:11:12 IDT" duration-ms="5817">
+      <class name="UserAPITests">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:UserAPITests@50cf5a23]" started-at="2022-04-19T22:11:06 IDT" name="classSetup" finished-at="2022-04-19T22:11:07 IDT" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method signature="Create_User()[pri:0, instance:UserAPITests@50cf5a23]" started-at="2022-04-19T22:11:07 IDT" name="Create_User" finished-at="2022-04-19T22:11:10 IDT" duration-ms="2951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_User -->
+        <test-method signature="Get_Data_For_Non_Existing_User()[pri:0, instance:UserAPITests@50cf5a23]" started-at="2022-04-19T22:11:10 IDT" name="Get_Data_For_Non_Existing_User" finished-at="2022-04-19T22:11:11 IDT" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Data_For_Non_Existing_User -->
+        <test-method signature="Get_Data_For_User_By_ID()[pri:0, instance:UserAPITests@50cf5a23]" started-at="2022-04-19T22:11:11 IDT" name="Get_Data_For_User_By_ID" finished-at="2022-04-19T22:11:12 IDT" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Data_For_User_By_ID -->
+      </class> <!-- UserAPITests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
